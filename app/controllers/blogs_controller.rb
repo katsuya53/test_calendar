@@ -6,6 +6,7 @@ class BlogsController < ApplicationController
   
   def new
     @blog = Blog.new
+    @blog.start_time = DateTime.now
   end
 
   def show
