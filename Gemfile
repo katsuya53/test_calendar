@@ -71,3 +71,4 @@ group :test do
 
 end
 gem 'simple_calendar', '~> 2.0'
+gem 'sassc-rails', '~> 2.0'
